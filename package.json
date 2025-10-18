@@ -1,0 +1,30 @@
+{
+  "name": "german-openai-cli-buddy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --no-warnings=ExperimentalWarning --loader ts-node/esm src/index.ts",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbaldzhiev/german-openai-cli-buddy.git"
+  },
+  "author": "nenko.baldzhiev@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nbaldzhiev/german-openai-cli-buddy/issues"
+  },
+  "homepage": "https://github.com/nbaldzhiev/german-openai-cli-buddy#readme",
+  "description": "",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@types/node": "^24.8.1"
+  }
+}
